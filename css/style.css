@@ -7,6 +7,7 @@
 body {
   background-color: #F5F8F9;
 }
+/* Header, logo, title */
 header {
   line-height: 70px;
   background-color: white;
@@ -24,12 +25,14 @@ h1 {
   margin: 0 5px 0 15px;
 }
 
-.container-buttom {
-  width: 900px; 
-  height: 50px;
+/* Button */
+
+.container-button {
+  width: 1200px; 
+  height: 60px;
   margin: auto;
   background-color: white;
-  margin-top: 20px;
+  margin-top: 40px;
   border-radius: 4px;
 
 }
@@ -46,6 +49,10 @@ h1 {
   margin-left: 40px;
 }
 
+.button {
+  line-height: 70px;
+}
+
 .section {
   text-decoration: none;
   color: gray;
@@ -56,14 +63,12 @@ h1 {
   text-align: left;
   padding: 4px 20px;
 }
-.button {
-  line-height: 50px;
-}
 
+/* Main content */
 .main-container {
-  width: 900px;
+  width: 1200px;
+  height: 600px;
   margin: auto;
-  margin-top: 10px; 
   background-color: white;
   border-radius: 4px;
 }
@@ -75,22 +80,43 @@ details > summary {
 
 }
 
-summary {
-  margin: 10px;
-}
-
+/* Symbols and circle */
 .circle {
   display: inline-block;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  margin: 10px;
+  margin: 5px;
   text-align: center;
-  border: 1px solid #26b79c;
-  color: #26b79c;
-
-  
+  border: 1px solid #5FBDA6;
+  color: #5FBDA6;
 }
+
+.circle-cross {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid #ED7772;
+  color: #ED7772;
+}
+
+/* Details */
+
+details {
+  margin-left: 30px;
+  padding: 15px;
+}
+
+details.top {
+  padding-top: 40px;
+  margin-top: 5px;
+
+}
+
+/* Labels */
 
 .blue-label {
   display: inline-block;
@@ -103,16 +129,69 @@ summary {
   background-color: #45ABEB;
   color: white;
   font-size: 12px;
-
 }
 
-details > summary {
-  padding: 2px 6px;
-  font-size: 20px;
-  font-weight: bold;
-  
+.violet-label {
+  display: inline-block;
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 10px;
+  margin: 5px;
+  text-align: center;
+  background-color: #9C72E4;
+  color: white;
+  font-size: 12px;
 }
 
-.todolist {
-  margin: 20px;
+.green-label {
+  display: inline-block;
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 10px;
+  margin: 5px;
+  text-align: center;
+  background-color: #64C0A9;
+  color: white;
+  font-size: 12px;
+}
+
+.orange-label {
+  display: inline-block;
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 10px;
+  margin: 5px;
+  text-align: center;
+  background-color: #F29E33;
+  color: white;
+  font-size: 12px;
+}
+
+.fucsia-label {
+  display: inline-block;
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 10px;
+  margin: 5px;
+  text-align: center;
+  background-color: #D763A1;
+  color: white;
+  font-size: 12px;
+}
+
+.greenlight-label {
+  display: inline-block;
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 10px;
+  margin: 5px;
+  text-align: center;
+  background-color: #B0C925;
+  color: white;
+  font-size: 12px;
 }

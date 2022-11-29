@@ -1,79 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML CSS Toboolist</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS Toboolist</title>
 
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-  <header>
-    <img class="logo" src="./img/Logo.png" alt="logo">
-    <h1>Toboolist</h1>
-  </header>
-  
-  <main>
-    <div class="container-buttom">
-      <div class="button">
-          <a href="#" class="task">Add task</a>
-          <a href="#" class="section">Add section</a>
-        </button>
-      </div>
-    </div>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- Start of header and logo -->
+    <header>
+      <img class="logo" src="./img/Logo.png" alt="logo">
+      <h1>Toboolist</h1>
+    </header>
+    <!-- End of header and logo-->
 
-    <div class="main-container">
-      <details>
-      <summary>New Task</summary>
-      <p><span class="circle">&check;</span>
-        Quarterly Newslatter
-         <span class="blue-label">Editorial</span></p>
-</details>
+    <!-- Button  -->
+    <main>
+        <div class="container-button">
+          <div class="button">
+              <a href="#" class="task">Add task</a>
+              <a href="#" class="section">Add section</a>
+            </button>
+          </div>
+        </div>
+      <!-- End of button tag -->
 
-    <details>
-      <summary>Today</summary>
-      <p><span class="circle">&check;</span>
-        Recruiting blog post
-         <span class="blue-label">Editorial</span></p>
+      <!-- List of main_content -->
+        <div class="main-container">
+          <details class="top">
+            <summary>New Task</summary>
+            <p><span class="circle">&check;</span>Quarterly Newslatter <span class="blue-label">Editorial</span></p>
+          </details>
 
-      <p><span class="circle">&check;</span>
-        Mobile up luaunch
-         <span class="violet-label">Q1 Goals</span></p>
+          <details>
+            <summary>Today</summary>
+            <p><span class="circle">&check;</span> Recruiting blog post
+            <span class="blue-label">Editorial</span></p>
 
-      <p><span class="circle">&cross;</span>
-        Interview John H.
-         <span class="green-label">Recruiting</span></p>
+            <p><span class="circle">&check;</span> Mobile up luaunch
+            <span class="violet-label">Q1 Goals</span></p>
 
-      <p><span class="circle">&check;</span>
-        Recruiting blog post
-         <span class="orange-label">Mobile</span></p>
+            <p><span class="circle-cross">&cross;</span> Interview John H.
+            <span class="green-label">Recruiting</span></p>
 
-</details>
+            <p><span class="circle">&check;</span> Recruiting blog post
+            <span class="orange-label">Mobile</span></p>
+          </details>
 
-    <details>
-      <summary>Upcoming</summary>
-      <p><span class="circle">&check;</span>
-        Recruiting blog post
-         </p>
+          <details>
+            <summary>Upcoming</summary>
+            <p><span class="circle-cross">&cross;</span> Schedule meeting with Alex</p>
 
-      <p><span class="circle">&check;</span>
-        Recruiting blog post
-         <span class="fucsia-label">Editorial</span></p>
+            <p><span class="circle">&check;</span> Home page refresh
+            <span class="fucsia-label">Website</span></p>
 
-      <p><span class="circle">&cross;</span>
-        Recruiting blog post
-         <span class="greenlight-label">Editorial</span></p>
+            <p><span class="circle">&check;</span> Onboard new Sales team members
+            <span class="greenlight-label">Sales</span></p>
 
-      <p><span class="circle">&check;</span>
-        Recruiting blog post
-         <span class="orange-label">Editorial</span></p>
-
-</details>
-</div>
-    
-
-    </div>
-  </main>
-</body> 
+            <p><span class="circle">&check;</span> Review editorial calendar
+            <span class="blue-label">Editorial</span></p>
+          </details>
+        </div> 
+        <!-- End of the main_content -->
+        
+    </main>
+  </body> 
 </html>
